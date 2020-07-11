@@ -1,0 +1,37 @@
+:root{
+    --theme-color:#322153;
+    --primary-color:#34cb79;
+    --backgroudcolor:#f0f0f5;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+a
+{
+    text-decoration:none;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Titillium Web', sans-serif;
+    color: var(--theme-color)
+}
+body{
+    background-color:#f0f0f0;
+    -webkit-font-smoonthing:antialiased;
+}
+header{
+    /*ajusta os elemento da tag header de forma que cada elemento so ocupe seu espaco e nao a "box" toda*/
+    display: flex;
+    /*alinha os itens no eixo y*/
+    align-items: center;
+    /*coloca espacamento entre os elementos da tag*/
+    justify-content: space-between;
+    margin-top: 48px;
+    
+}

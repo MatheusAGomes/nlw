@@ -1,0 +1,80 @@
+
+#search-results{
+    width: 90%;
+    max-width: 1100px;
+    /*Tamanho da Box*/
+    margin: 0 auto;
+}
+#search-results header{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#search-results header a{
+    color: var(--theme-color);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+#search-results header a span{
+        margin-right: 16px;
+        background: url(../assets/arrow-left.svg);
+        font-weight: bold;
+        height: 24px;
+        width: 20px;
+        display: flex;
+}
+body{
+    background-color: var(--backgroudcolor);
+}
+body ::after{
+    content: "";
+    position: fixed;
+    background-color: white;
+    top: 200px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+main{
+    margin-top: 48px;
+}
+main h4{
+    font-weight: normal;
+    font-family: 'Titillium Web', sans-serif;
+    margin-bottom: 32px;
+}
+main .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+main img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+main h1{
+    margin-top: 32px;
+    font-size: 36px;
+    line-height: 41px;
+    color:#322153
+}
+main h2{
+    margin: 24px 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 34px;
+    color:#34CB79
+}
+main p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C80;
+
+}
